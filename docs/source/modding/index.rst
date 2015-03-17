@@ -5,4 +5,5 @@ Modding
     :maxdepth: 2
     :titlesonly:
 
-    How to use ColossalFramework.UI
+    How-to-Use-ColossalFramework.UI
+    Setting-Up-and-Using-Visual-Studio-for-Modding
