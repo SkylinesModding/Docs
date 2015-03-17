@@ -14,6 +14,7 @@ Documentation
     :maxdepth: 4
     :titlesonly:
 
+    general/index
     modding/index
     assets/index
     maps/index

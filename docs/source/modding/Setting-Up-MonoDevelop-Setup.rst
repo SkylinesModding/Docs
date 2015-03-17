@@ -1,6 +1,6 @@
-============================================
-Setting Up and Using MonoDevelop for Modding
-============================================
+======================
+Setting Up MonoDevelop
+======================
 
 Install MonoDevelop
 ===================
@@ -42,7 +42,7 @@ You should now be able to write a simple class like ...
 
     public class myLoader : LoadingExtensionBase {
     }
-    
+
 ... and have the program autocomplete the LoadingExtensionBase keyword. Inside, you can then hit ``Alt+Insert`` to generate stubs for the interface. And inside those methods, you should be able to access the classes from ColossalManaged.dll and Assembly-CSharp.dll. For example, you should be able to use DebugOutputPanel.AddMessage() (which writes to the ingame Debug Console).
 
 
@@ -77,7 +77,7 @@ Automate
 5. create the file deldll.cmd in your project directory
     * **deldll.cmd**:
     * ``del "%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons\Mods\FooBar\FooBar.dll"``
-      
+
 It should look similar to `this <http://i.imgur.com/HDI6KMO.png>`__.
 Now whenever you build this project, deldll.cmd deletes your old .dll, then after the build is complete the new .dll is copied via xcopy.
 
