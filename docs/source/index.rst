@@ -10,31 +10,12 @@ Welcome to the Cities:Skylines modding documentation! This is an unofficial wiki
 Documentation
 =============
 
-Modding
-~~~~~~~
-
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
     :titlesonly:
 
     modding/index
-
-Assets
-~~~~~~
-
-.. toctree::
-    :maxdepth: 3
-    :titlesonly:
-
     assets/index
-
-Maps
-~~~~
-
-.. toctree::
-    :maxdepth: 3
-    :titlesonly:
-
     maps/index
 
 About The Docs

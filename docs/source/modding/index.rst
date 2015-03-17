@@ -1,19 +1,10 @@
-Setting Up Your Environment
-===========================
+=======
+Modding
+=======
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3 
     :titlesonly:
 
-    How-to-Use-ColossalFramework.UI
-    Setting-Up-and-Using-Visual-Studio-for-Modding
-    Setting-Up-and-Using-MonoDevelop-for-Modding
-
-Development
-===========
-
-.. toctree::
-    :maxdepth: 2
-    :titlesonly:
-
-    How-to-Use-ColossalFramework.UI
+    Setting-Up-Your-Environment
+    Development
