@@ -174,4 +174,4 @@ Sprite list
 * name (what it does)
 
 
-Kudos to `permutation1 <http://www.reddit.com/user/permutation>`__ for this post on `reddit <http://www.reddit.com/r/CitiesSkylinesModding/comments/2ytrm1/tiny_code_snippet_how_to_use_colossalframeworkui/>`__.
+Kudos to `permutation <http://www.reddit.com/user/permutation>`__ for this post on `reddit <http://www.reddit.com/r/CitiesSkylinesModding/comments/2ytrm1/tiny_code_snippet_how_to_use_colossalframeworkui/>`__.
