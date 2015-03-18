@@ -6,5 +6,5 @@ Setting Up Your Environment
     :maxdepth: 3
     :titlesonly:
 
-    Setting-Up-and-Using-Visual-Studio-for-Modding
-    Setting-Up-and-Using-MonoDevelop-for-Modding
+    Setting-Up-Visual-Studio
+    Setting-Up-MonoDevelop
