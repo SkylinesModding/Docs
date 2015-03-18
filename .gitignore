@@ -1,5 +1,6 @@
 # Keep git repo clean from Sphinx and Venv specific files:
 venv
-docs/make.bat
-docs/Makefile
 docs/build
+
+#Linux
+*.directory
