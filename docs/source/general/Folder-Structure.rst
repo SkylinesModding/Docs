@@ -10,7 +10,7 @@ This is where you create all your modifications to the game.
 * **On Linux** ``/home/<username>/.local/share/Colossal Order/Cities_Skylines``
 
 The other directory you might need is located in your steamapps.
-This directory contains all the DLL's for :doc:`modding <modding/index>`, :doc:`output log <modding/Output-Log>` and more.
+This directory contains all the DLL's for :doc:`modding </modding/index>`, :doc:`output log </modding/Output-Log>` and more.
 
 .. This might be different for Mac/Linux.
 * **On Windows** ``[SteamLibrary]\SteamApps\common\Cities_Skylines``
@@ -21,20 +21,19 @@ Structure AppData
 =================
 * Root
 * Addons
-    * **Assets** - Assets saved from the :doc:`Asset Editor <assets/Asset-Editor>` are stored here
-    * **ColorCorrections** - Custom :doc:`color corrections <general/Color-Corrections>` look-up tables can be placed in this folder
-    * **Import** - All the assets (textures, models) to import custom assets in the :doc:`Asset Editor <assets/Asset-Editor>` are placed here
+    * **Assets** - Assets saved from the :doc:`Asset Editor </assets/Asset-Editor>` are stored here
+    * **ColorCorrections** - Custom :doc:`color corrections </general/Color-Corrections>` look-up tables can be placed in this folder
+    * **Import** - All the assets (textures, models) to import custom assets in the :doc:`Asset Editor </assets/Asset-Editor>` are placed here
     * MapEditor
         * **Brushes** - Custom made brush textures can be placed here
-        * **Heightmaps** - Heightmaps to import are placed in this folder, exported heightmaps from the :doc:`Map Editor <maps/Map-Editor>` also will appear in this folder
+        * **Heightmaps** - Heightmaps to import are placed in this folder, exported heightmaps from the :doc:`Map Editor </maps/Map-Editor>` also will appear in this folder
     * **Mods** - Base folder for user made code modifications
-* **Maps** - Maps saved from the :doc:`Map Editor <maps/Map-Editor>` are stored here
+* **Maps** - Maps saved from the :doc:`Map Editor </maps/Map-Editor>` are stored here
 * **Saves** - Save games are stored here
-* **Snapshots**\* - Snapshots taken from the :doc:`Map Editor <maps/Map-Editor>` and the :doc:`Asset Editor <assets/Asset-Editor>` are stored in subfolders named after their unique id
+* **Snapshots**\* - Snapshots taken from the :doc:`Map Editor </maps/Map-Editor>` and the :doc:`Asset Editor </assets/Asset-Editor>` are stored in subfolders named after their unique id
 * **WorkshopStagingArea**\*\* - Steam Workshop content is shown in subfolders here before being uploaded
 
 \* - *These folders are never automatically cleaned up, that means the more snapshots a user take, the more images and subfolders there will be. It is convenient when working for a long time with multiple maps to preserve older snapshots to be reused. The folder can be deleted manually with no side effects for the game if needs arise.*
-
 \*\* - *These folders exist only during the time they are needed.*
 
 Additionally, the game may use an additional "Temp" folder if needed. The folder is created under Addons and does not require any human interactions.
@@ -45,8 +44,8 @@ Structure SteamApps
 
 * Root
 * **Cities Skylines Soundtrack** - If you have bought the Deluxe version of the game this is were you can find the bonus soundtracks.
-* Cites_Data - The :doc:`output_log.txt <modding/Output-Log>` is stored here which might contain errors from your mod
-    * **Managed** - All the DLL's you need are listed here. See :doc:`setting up your environment <modding/Setting-Up-Your-Environment>` for more info about these.
+* Cites_Data - The :doc:`output_log.txt </modding/Output-Log>` is stored here which might contain errors from your mod
+    * **Managed** - All the DLL's you need are listed here. See :doc:`setting up your environment </modding/Setting-Up-Your-Environment>` for more info about these.
 * **Locale** - The locale files for all supported languages.
 * Files - All the external files the game uses including some default mods and locale files.
     * **Mods** - Three default mods (HardMode, UnlimitedMoney, UnlockAll) and a template mod (NewMod) as reference.

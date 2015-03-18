@@ -18,7 +18,7 @@ And you'll also have to add this line at the top of your class to be able to use
 
 .. code-block:: c#
 
-    using ColossalFramework;
+    using ColossalFramework.Plugins;
 
 Logging
 =======
@@ -27,7 +27,7 @@ To send a message to the debug panel you use this code.
 .. code-block:: c#
     :linenos:
 
-    DebugOutputPanel.AddMessage(ColossalFramework.Plugins.PluginManager.MessageType.Message, "Message");
+    DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, "Message");
 
 you can easily create some static methods for logging.
 It's also recommended to prefix you log message so that users know were the message came from.
