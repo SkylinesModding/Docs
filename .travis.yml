@@ -3,7 +3,6 @@ python:
     - "2.7"
 
 notifications:
-    irc: "irc.esper.net#skylines-modders"
     email: false
 
 # Install dependencies
