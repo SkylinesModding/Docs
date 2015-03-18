@@ -63,6 +63,7 @@ Testing the Mod
 
 Automate
 ========
+This will automatically copy dll to Mods folder and then delete it before the next build so the new dll can be copied
 
 1. Go to Project - FooBar Options
 2. Go to Build - Custom Commands, select Debug as configuration
@@ -71,14 +72,12 @@ Automate
     * Working Directory: ``${ProjectDir}``
     * Check "Run on external console" (you can check Pause, too, to debug)
 4. From the drop down, add "**Before Build**"
-    * Command: ``deldll.cmd``
+    * Command: ``cmd /c "IF EXIST '%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons\Mods\${SolutionName}\${SolutionName}.dll' (del '%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons\Mods\${SolutionName}\${SolutionName}.dll')"``
     * Working Directory: ``${ProjectDir}``
     * check "Run on external console" (you can check Pause, too, to debug)
-5. create the file deldll.cmd in your project directory
-    * **deldll.cmd**:
-    * ``del "%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons\Mods\FooBar\FooBar.dll"``
 
-It should look similar to `this <http://i.imgur.com/HDI6KMO.png>`__.
+
+It should look similar to `this <http://i.imgur.com/QxBuZJw.png>`__.
 Now whenever you build this project, deldll.cmd deletes your old .dll, then after the build is complete the new .dll is copied via xcopy.
 
 Kudos to `permutation <http://www.reddit.com/user/permutation>`__ for this post on reddit.
