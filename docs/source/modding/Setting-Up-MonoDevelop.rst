@@ -63,21 +63,34 @@ Testing the Mod
 
 Automate
 ========
-This will automatically copy dll to Mods folder and then delete it before the next build so the new dll can be copied
+This will copy dll to Mods folder and then delete it before the next build so the new dll can be copied.
 
 1. Go to Project - FooBar Options
 2. Go to Build - Custom Commands, select Debug as configuration
 3. From the drop down, add "**After Build**"
-    * Command: ``xcopy /Y "bin\${ProjectConfigName}\${SolutionName}.dll" "%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons\Mods\${SolutionName}\"``
-    * Working Directory: ``${ProjectDir}``
-    * Check "Run on external console" (you can check Pause, too, to debug)
+
+* Command:
+
+.. code-block:: batch
+
+   xcopy /Y "bin\${ProjectConfigName}\${SolutionName}.dll" "%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons Mods\${SolutionName}\"
+
+* Working Directory: ``${ProjectDir}``
+* Check "Run on external console" (you can check Pause, too, to debug)
+
 4. From the drop down, add "**Before Build**"
-    * Command: ``cmd /c "IF EXIST '%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons\Mods\${SolutionName}\${SolutionName}.dll' (del '%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons\Mods\${SolutionName}\${SolutionName}.dll')"``
-    * Working Directory: ``${ProjectDir}``
-    * check "Run on external console" (you can check Pause, too, to debug)
+
+* Command:
+
+.. code-block:: batch
+
+   cmd /c "IF EXIST '%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons\Mods\${SolutionName}\${SolutionName}.dll' (del '%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons\Mods\${SolutionName}\${SolutionName}.dll')"
+
+* Working Directory: ``${ProjectDir}``
+* check "Run on external console" (you can check Pause, too, to debug)
 
 
 It should look similar to `this <http://i.imgur.com/QxBuZJw.png>`__.
-Now whenever you build this project, deldll.cmd deletes your old .dll, then after the build is complete the new .dll is copied via xcopy.
+Now whenever you build this project, MonoDevelop deletes your old .dll (IF it exists), then after the build is complete the new .dll is copied via xcopy.
 
 Kudos to `permutation <http://www.reddit.com/user/permutation>`__ for this post on reddit.
