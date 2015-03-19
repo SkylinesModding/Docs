@@ -45,7 +45,7 @@ Structure SteamApps
 * Root
 * **Cities Skylines Soundtrack** - If you have bought the Deluxe version of the game this is were you can find the bonus soundtracks.
 * Cites_Data - The :doc:`output_log.txt </modding/Output-Log>` is stored here which might contain errors from your mod
-    * **Managed** - All the DLL's you need are listed here. See :doc:`setting up your environment </modding/Setting-Up-Your-Environment>` for more info about these.
+    * **Managed** - All the DLL's you need are listed here.
 * **Locale** - The locale files for all supported languages.
 * Files - All the external files the game uses including some default mods and locale files.
     * **Mods** - Three default mods (HardMode, UnlimitedMoney, UnlockAll) and a template mod (NewMod) as reference.

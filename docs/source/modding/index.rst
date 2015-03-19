@@ -6,6 +6,6 @@ Modding
     :maxdepth: 3
     :titlesonly:
 
-    Setting-Up-Your-Environment
+    Getting-Started
     Workflow
     Development
