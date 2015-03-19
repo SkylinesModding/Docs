@@ -39,4 +39,5 @@ There are a few other logging methods that other people made.
 Here is a list to some of them.
 
 * `ChirpLogger <https://github.com/Enagan/ChirpLogger>`__
+* `Debugging Deluxe <http://www.skylinesmodding.com/t/debugging-deluxe/136>`__
 * *More will be added soon...*
