@@ -5,7 +5,7 @@ Cities:Skylines Modding's documentation
 Welcome to the Cities:Skylines modding documentation! This is an unofficial wiki created by fans for the fans.
 
 .. warning::
-    The documentation here is still under construction. As such, not everything is complete or accurate. Learn how to contribute at `SkylinesModding <http://www.skylinesmodding.com/>`__.
+    The documentation here is still under construction. As such, not everything is complete or accurate. Learn how to contribute :doc:`here </contributing>`.
 
 Documentation
 =============
