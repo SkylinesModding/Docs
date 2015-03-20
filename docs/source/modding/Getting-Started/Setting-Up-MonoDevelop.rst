@@ -4,7 +4,6 @@ Setting Up MonoDevelop
 
 Install MonoDevelop
 ===================
-
 If you don't own a copy of MonoDevelop, you can download `MonoDevelop <http://www.monodevelop.com/download/>`__ **for free**. Installing MonoDevelop should be straightforward.
 
 
@@ -25,17 +24,11 @@ Set references
 1. In Solution, right click ``References - Edit References``. (If you don't see a "Solution" panel on the left side, go to View - Pads - Solution.)
 2. I don't know if you can use the default System library, but just in case I remove it from "Selected references".
 3. In the tab .NET Assembly, navigate to your Steam library folder, and then to ``SteamLibrary\SteamApps\common\Cities_Skylines\Cities_Data\Managed``
-4. Select the assembly DLLs you want to use. A short overview over what does what:
-    * ICities.dll: The official mod API. Required.
-    * UnityEngine.dll: Unity engine base types. Pretty much required.
-    * UnityEngine.UI.dll: Unity built-in UI. Optional.
-    * ColossalManaged.dll: Custom Colossal UI (among other things), which can be used to place your own native-looking UI elements (as demonstrated earlier). Optional.
-    * Assembly-CSharp.dll: Seems to contain most of the game logic classes. Optional.
+4. Select the :doc:`assembly DLL(s) </modding/Workflow/Assemblies>` you want to use.
 
 
 Test autocompletion
 ===================
-
 You should now be able to write a simple class like ...
 
 .. code-block:: c#

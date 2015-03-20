@@ -9,7 +9,7 @@ This DLL is your mod and this will also be placed on the workshop.
 Compiling
 ~~~~~~~~~
 The game comes with a compiler to compile the dll for your mod.
-However, this compiler only compiles your mod when you use the :doc:`ICities API <ICities-API>`.
+However, this compiler only compiles your mod when you use the :doc:`ICities API </modding/Development/ICities-API>`.
 The API is currently very limited and you can't do very much with it.
 Now the good news is that we also have access to all other classes.
 This means you can access almost everything in the game but the only downside is that you can't use the in game compiler.
@@ -24,7 +24,7 @@ We have set up some guides to make it a lot easier to compile your mod within Vi
 
 Without an editor
 ~~~~~~~~~~~~~~~~~
-If you are fine with just using the :doc:`API </modding/ICities-API>` you don't have to use an editor.
+If you are fine with just using the :doc:`API </modding/Development/ICities-API>` you don't have to use an editor.
 You will still need a text editor like notepad or sublime text to write down your c# classes.
 
 * Go to the mods folder in local appdata. (See :doc:`Folder Structure </general/Folder-Structure>`)
@@ -123,8 +123,8 @@ Next step
 Now that you can create a mod and compile it it's time to do something in the mod.
 Visit the pages below to learn more what to do next and make your mod actually do something.
 
-* :doc:`Workflow </modding/Workflow>` - Information how to improve your workflow like debugging etc.
-* :doc:`Development </modding/Development>` - This is where you can learn how to make content for your mods.
+* :doc:`Workflow </modding/Workflow/index>` - Information how to improve your workflow like debugging etc.
+* :doc:`Development </modding/Development/index>` - This is where you can learn how to make content for your mods.
 
 
 

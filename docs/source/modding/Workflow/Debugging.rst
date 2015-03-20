@@ -13,7 +13,7 @@ The panel also has a clear button, this will clear all the messages.
 Reference the DLL
 =================
 To be able to use this method of logging you will have to add a reference to the **Assembly-CSharp DLL**.
-If you're not sure how to do this see this guide for :doc:`Visual Studio <Setting-Up-Visual-Studio>` or for :doc:`MonoDevelop <Setting-Up-MonoDevelop>`.
+If you're not sure how to do this see this guide for :doc:`Visual Studio </modding/Getting-Started/Setting-Up-Visual-Studio>` or for :doc:`MonoDevelop </modding/Getting-Started/Setting-Up-MonoDevelop>`.
 And you'll also have to add this line at the top of your class to be able to use it.
 
 .. code-block:: c#
@@ -39,5 +39,4 @@ There are a few other logging methods that other people made.
 Here is a list to some of them.
 
 * `ChirpLogger <https://github.com/Enagan/ChirpLogger>`__
-* `Debugging Deluxe <http://www.skylinesmodding.com/t/debugging-deluxe/136>`__
 * *More will be added soon...*
