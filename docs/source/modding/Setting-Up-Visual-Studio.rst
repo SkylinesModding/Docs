@@ -79,6 +79,12 @@ To automatically copy the DLL to the mod directory after each build, follow thes
     This assumes that your mod directory has the same name as your solution.
     If it doesn't you can change ``$(SolutionName)`` to the directory of your mod.
 
+    Optionally, you can automate the launching of the game (to save those precious seconds of clicking in steam):
+    
+    .. code-block:: batch
+
+        "%STEAMDIRECTORY%\Steam.exe" -applaunch 255710
+    
 4. To make the game reload your mod while running, change the last two lines in AssemblyInfo.cs (under :guilabel:`Properties` in the :guilabel:`Solution Explorer`) to read:
 
     .. code-block:: c#
