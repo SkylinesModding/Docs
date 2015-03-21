@@ -66,7 +66,7 @@ This will copy dll to Mods folder and then delete it before the next build so th
 
 .. code-block:: batch
 
-   xcopy /Y "bin\${ProjectConfigName}\${SolutionName}.dll" "%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons Mods\${SolutionName}\"
+   xcopy /Y "bin\${ProjectConfigName}\${SolutionName}.dll" "%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Addons\Mods\${SolutionName}\"
 
 * Working Directory: ``${ProjectDir}``
 * Check "Run on external console" (you can check Pause, too, to debug)
