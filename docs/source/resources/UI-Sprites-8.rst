@@ -516,7 +516,7 @@ You can use these sprites in many of the UI components that have a sprite proper
  
 About this page
 ---------------
-This wiki page was created in game with the SpriteDumper mod.
+This wiki page was created in game with the `SpriteDumper mod <https://github.com/worstboy32/SpriteDumper>`__ .
 To modify the text in this document please create a PR on the mod on github.
 If there are sprites missing you can run the mod and create a PR on the docs repo with the new generated file.
 
