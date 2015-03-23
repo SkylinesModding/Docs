@@ -1,7 +1,7 @@
 .. WARNING FOR CONTRIBUTORS: Don't modify this file! It's generated with a mod (see below) and all changes made will be lost with the next update.
 
 ==========
-UI Sprites 1/8
+UI Sprites 4/8
 ==========
 Here you can find a list of UI sprites.
 These are all the sprites available in the game.
