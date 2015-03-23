@@ -18,6 +18,7 @@ Documentation
     modding/index
     assets/index
     maps/index
+    resources/index
 
 About The Docs
 ~~~~~~~~~~~~~~
