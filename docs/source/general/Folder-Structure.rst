@@ -10,7 +10,7 @@ This is where you create all your modifications to the game.
 * **On Linux** ``/home/<username>/.local/share/Colossal Order/Cities_Skylines``
 
 The other directory you might need is located in your steamapps.
-This directory contains all the DLL's for :doc:`modding </modding/index>`, :doc:`output log </modding/Output-Log>` and more.
+This directory contains all the :doc:`DLLs </modding/Workflow/Assemblies>` for :doc:`modding </modding/index>`, :doc:`output log </modding/Workflow/Output-Log>` and more.
 
 .. This might be different for Mac/Linux.
 * **On Windows** ``[SteamLibrary]\SteamApps\common\Cities_Skylines``
@@ -44,7 +44,7 @@ Structure SteamApps
 
 * Root
 * **Cities Skylines Soundtrack** - If you have bought the Deluxe version of the game this is were you can find the bonus soundtracks.
-* Cites_Data - The :doc:`output_log.txt </modding/Output-Log>` is stored here which might contain errors from your mod
+* Cites_Data - The :doc:`output_log.txt </modding/Workflow/Output-Log>` is stored here which might contain errors from your mod
     * **Managed** - All the DLL's you need are listed here.
 * **Locale** - The locale files for all supported languages.
 * Files - All the external files the game uses including some default mods and locale files.
