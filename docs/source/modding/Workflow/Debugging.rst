@@ -33,6 +33,27 @@ you can easily create some static methods for logging.
 It's also recommended to prefix you log message so that users know were the message came from.
 For example: *"[TreeBrush] Some debug message.."*
 
+Logging an objects properties
+=============================
+If you want to print out all the properties of an object, you can use the method below.
+
+.. code-block:: c#
+
+    using System;
+    using System.ComponentModel;
+
+    public void dumpObject(object myObject)
+    {
+        string myObjectDetails = "";
+        foreach (PropertyDescriptor descriptor in TypeDescriptor.GetProperties(myObject))
+        {
+            string name = descriptor.Name;
+            object value = descriptor.GetValue(myObject);
+            myObjectDetails+= name + ": " + value + "\n";
+        }
+        DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, myObjectDetails);
+    }
+
 Other logging methods
 =====================
 There are a few other logging methods that other people made.
