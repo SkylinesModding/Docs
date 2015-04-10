@@ -41,7 +41,7 @@ Starting a mod
 
 Namespace
 ---------
-First of all you have to define a `namespcae <https://msdn.microsoft.com/en-us/library/z2kcy19k.aspx>`__ for your mod.
+First of all you have to define a `namespace <https://msdn.microsoft.com/en-us/library/z2kcy19k.aspx>`__ for your mod.
 All the classes you create should be wrapped inside this namespace.
 The namespace should be the name of your mod or at least something very similar.
 You can see the namespace as a container for all your code to organize things.
