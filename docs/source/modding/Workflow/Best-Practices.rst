@@ -5,7 +5,7 @@ This is a list of best practises.
 Some of these are very important as they can break people their game!
 Check this page fruequently for new things.
 
-Consistant Assembly Versioning
+Consistent Assembly Versioning
 ~~~~~~~~~~~~~~
 The game keeps strict version references, so if you update the assembly version of your mod, old references will break, corrupting the savegame.
 So, **always use the same assembly version**!
