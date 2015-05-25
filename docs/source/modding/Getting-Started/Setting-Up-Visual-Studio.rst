@@ -32,7 +32,7 @@ Create your base class implementing ``ICities.IUserMod`` as usual. Add as many c
 
 Compile
 =======
-Press :kbd:`F6` to compile your mod. The compiled DLL will be placed in ``bin\Debug`` or ``bin\Release`` under the project folder, depending on the active configuration. You can switch configurations with the combo box in the toolbar.
+Press :kbd:`F6` to compile your mod. The Output Type in your project's Properties should be set to Class Library. The compiled DLL will be placed in ``obj\Debug`` or ``obj\Release`` under the project folder, depending on the active configuration. You can switch configurations with the combo box in the toolbar.
 
 Test
 ====
