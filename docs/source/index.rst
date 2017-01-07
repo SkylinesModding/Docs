@@ -43,10 +43,8 @@ Links
 - `Official C:S Wiki <http://www.skylineswiki.com/Cities:_Skylines_Wiki>`__
 - `C:S on Steam <http://store.steampowered.com/app/255710/>`__
 - `C:S Steam Workshop <http://steamcommunity.com/app/255710/workshop/>`__
-- `CitiesSkylinesModding <http://www.skylinesmodding.com/>`__
 - `/r/CitiesSkylines <https://www.reddit.com/r/CitiesSkylines/>`__
 - `/r/CitiesSkylinesModding <https://www.reddit.com/r/CitiesSkylinesModding>`__
-- `/r/CSModAudits <https://www.reddit.com/r/CSModAudits>`__
 
 Indices and tables
 ==================
