@@ -39,12 +39,12 @@ Remember that you can **search**!
 
 Using the ModTools mod
 ----------------------
-Thanks to `nlight <http://www.skylinesmodding.com/users/nlight/>`__ we now have a mod that can help with reverse engineering.
+Thanks to `nlight <http://steamcommunity.com/profiles/76561198027947026/>`__ we now have a mod that can help with reverse engineering.
 This mod has a scene explorer which allows you to examine all objects in the scene.
 It doesn't just list the objects it also shows all the components, fields, properties and methods.
 This will help you a lot with understanding how the game works and find the parts of the code you need.
 It also has some other useful features like logging exceptions in the console so make sure to check it out!
-`ModTools by nlight. <http://www.skylinesmodding.com/t/modtools-in-game-debugging/123>`__
+`ModTools by nlight. <http://steamcommunity.com/sharedfiles/filedetails/?id=409520576&searchtext=modtools>`__
 
 More things to reverse engineer
 -------------------------------
