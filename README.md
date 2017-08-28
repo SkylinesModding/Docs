@@ -1,4 +1,4 @@
-# Skylines Modding Documentation
+# Skylines Modding Documentation (DISCONTINUED)
 
 For more information on how to contribute, check [How to Contribute to the Docs](http://docs.skylinesmodding.com/en/latest/contributing.html) page.
 
