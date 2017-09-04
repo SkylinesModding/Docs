@@ -8,7 +8,7 @@ You can find these assemblies in your steamapps. (See :doc:`folder structure </g
 ``[SteamLibrary]\SteamApps\common\Cities_Skylines``
 
 Check out the :doc:`reverse engineering page </modding/Workflow/Reverse-Engineering>` for more information how these can be usefull.
-You will also need to reference these when settup up your project to be able to use them.
+You will also need to reference these when setup up your project to be able to use them.
 
 
 ICities.dll
