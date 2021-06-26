@@ -67,7 +67,14 @@ To automatically copy the DLL to the mod directory after each build, follow thes
 
         [assembly: AssemblyVersion("1.0.*")]
         //[assembly: AssemblyFileVersion("1.0.0.0")]
-
+    
+    If you get a build error about the asterix (*) and deterministic builds, you'll need to manualy set the "Determinism" property in your <SolutionName>.csproj file to false as     .. code-block: c#
+        <Deterministic>false</Deterministic> 
+        //<Deterministic>true</Deterministic>
+        
+    'Description of determinism <https://blog.paranoidcoding.com/2016/04/05/deterministic-builds-in-roslyn.html>'
+    Source 'John Deer <https://stackoverflow.com/questions/53782085/visual-studio-assemblyversion-with-dont-work>'
+    'Why determinism is on by default <https://developercommunity.visualstudio.com/t/new-solutions-are-deterministic/348650>
 
 Kudos to `reimarvin <http://www.reddit.com/user/reimarvin>`__ for this post on reddit.
 
